@@ -1,22 +1,20 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/swiper.min.css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/swiper.min.css";
 
-import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import { Button } from "@material-tailwind/react";
 import { Link } from "gatsby";
-import Energency from "./EmergencyHomeBanner";
-import Teethforpal from "./Teethforpal";
 import {
   BsFillCalendar2CheckFill,
   BsFillCalendarDateFill,
-  BsExclamationCircleFill,
 } from "react-icons/bs";
+import { Autoplay, Keyboard, Mousewheel, Navigation, Pagination } from "swiper";
+import Energency from "./EmergencyHomeBanner";
 import MyModal from "./MyDialog";
 
 export default function App() {

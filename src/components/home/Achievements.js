@@ -1,11 +1,12 @@
 import React from "react";
-import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 import DentistIcon from "../../images/icons/dentist.svg";
-import StaffIcon from "../../images/icons/staff.svg";
+ 
 import ExperienceIcon from "../../images/icons/experience.svg";
 import SmileIcon from "../../images/icons/smile.svg";
-import { GatsbyImage } from "gatsby-plugin-image"
+import StaffIcon from "../../images/icons/staff.svg";
+
 
 const Achievements = () => {
   const [ref, inView] = useInView({
@@ -15,17 +16,18 @@ const Achievements = () => {
   });
 
   const achievements = [
-    { id: 1, title: "Dentists", icon: DentistIcon, number: 5, symbol: "" },
+    { id: 1, title: "Dentist", icon: DentistIcon, number: 1, symbol: "" },
     { id: 2, title: "Staffs", icon: StaffIcon, number: 16, symbol: "+" },
+    { id: 3, title: "Doctor", icon: DentistIcon, number: 1, symbol: "" },
     {
-      id: 3,
+      id: 4,
       title: "Years of Experience",
       icon: ExperienceIcon,
       number: 25,
       symbol: "+",
     },
     {
-      id: 4,
+      id: 5,
       title: "Happy Patients",
       icon: SmileIcon,
       number: 500,
@@ -34,7 +36,7 @@ const Achievements = () => {
   ];
   return (
     <section className="bg-secondary py-16 relative z-10">
-      <div className="container mx-auto px-10 grid md:grid-cols-2 lg:grid-cols-4">
+      <div className="container mx-auto px-10 grid md:grid-cols-3 lg:grid-cols-5">
         {achievements.map((item) => {
           return (
             <div key={item.id} className="flex flex-col items-center mb-10">

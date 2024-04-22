@@ -54,8 +54,7 @@ const Topbar = () => {
               </div> */}
             </div>
             <div className="pl-4 flex items-center">
-              <FiMapPin className="mr-2" /> 7-9 Branch Rd, Armley, Leeds LS12
-              3AQ, UK
+              <FiMapPin className="mr-2" /> 786 Leeds Road, Bradford, BD3 8TY
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import React from "react";
 import { BsFacebook, BsInstagram, BsTiktok, BsYoutube } from "react-icons/bs";
 import { FiInstagram, FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 import { navPages, policyPages } from "../../common/constant";
+import img from "../../images/pav map.png";
 import Logo from "./Logo";
 
 const Footer = () => {
@@ -57,28 +58,28 @@ const Footer = () => {
 
           <div className="flex items-center my-5 gap-3	">
             <a
-              href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
+              href="https://www.facebook.com/profile.php?id=61558060799200"
               target="_blank"
               className="icon "
             >
               <BsFacebook />
             </a>
             <a
-              href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
+              href="https://www.instagram.com/pavdentalofficial/?igsh=MXd5MTg2OGU1aW8zNw%3D%3D"
               className="icon "
               target="_blank"
             >
               <BsInstagram />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCfI_aWjggAbB3ZT1zijgyfg"
+              href="https://www.youtube.com/@PavDental/featured"
               className="icon "
               target="_blank"
             >
               <BsYoutube />
             </a>
             <a
-              href="https://www.tiktok.com/@parishdental?is_from_webapp=1&sender_device=pc"
+              href="https://www.tiktok.com/@pavdentalofficial?_t=8liREyMlh45&_r=1"
               className="icon "
               target="_blank"
             >
@@ -101,15 +102,6 @@ const Footer = () => {
               />
             </a>
           </div>
-          <a
-            className="cursor-pointer"
-            target="_blank"
-            href="https://www.justgiving.com/crowdfunding/drpavmobiledentalvan"
-          >
-            <button className="py-2 my-6 font-semibold border-2 border-green-600 rounded-lg hover:text-white text-green-600 px-4 bg-white hover:bg-green-600 group-hover:bg-green-600 group-hover:text-white">
-              honoring a visionary, building a legacy – donate
-            </button>
-          </a>
         </div>
 
         <div className="">
@@ -209,12 +201,12 @@ const Footer = () => {
         </div>
         <div>
           <a
-            href="https://www.google.com/maps/place/Parish+Dental+Practise,+7-9+Branch+Rd,+Armley,+Leeds+LS12+3AQ,+UK/@53.7977826,-1.5875803,19.7z/data=!4m5!3m4!1s0x48795ec462f517e1:0xad3e66b54778e8ef!8m2!3d53.7978077!4d-1.5874348?hl=en"
+            href="https://www.google.com/maps/place/Dr+Pav+Aesthetic+Dentist/@51.7462775,-0.4877934,17z/data=!4m6!3m5!1s0x48764355a891337f:0x30d36970f9ded11b!8m2!3d51.7462825!4d-0.4878604!16s%2Fg%2F11m_lcrktb?entry=ttu"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src="https://res.cloudinary.com/db1i46uiv/image/upload/v1708500168/Screenshot_2024-02-21_131851_cnquue.png"
+              src={img}
               className="h-full w-full object-cover rounded"
               alt={footerData?.mapPicture?.title}
             />

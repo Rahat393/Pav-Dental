@@ -19,7 +19,7 @@ const AestheticsBanner = () => {
           Seeking Perfection?
         </h1>
         <p className="text-lg lg:text-2xl">
-          The Award-Winning Leeds Dental and Aesthetics Clinic
+        The Award Winning Yorkshire Dental and Aesthetic Clinic
         </p>
 
         <a

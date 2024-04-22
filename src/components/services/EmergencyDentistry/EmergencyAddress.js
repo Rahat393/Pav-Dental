@@ -10,7 +10,7 @@ const addressBlocks = [
   {
     id: 1,
     name: "Address",
-    val: "7 - 9 Branch Road,LEEDS, LS12 3AQ",
+    val: "– HUB – 786 Leeds Road, Bradford, BD3 8TY ",
     Icon: HiOutlineMapPin,
   },
   {
@@ -23,7 +23,7 @@ const addressBlocks = [
   {
     id: 3,
     name: "Email",
-    val: "private@pavdental.com",
+    val: "hello@pavdental.com",
     Icon: HiOutlineEnvelope,
   },
 ];

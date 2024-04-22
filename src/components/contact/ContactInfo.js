@@ -73,28 +73,28 @@ const ContactInfo = () => {
       <div className="icon-flex">
       
         <a
-          href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony"
+          href="https://www.facebook.com/profile.php?id=61558060799200&mibextid=ZbWKwL"
           target="_blank"
           className="icon text-xl"
         >
           <BsFacebook />
         </a>
         <a
-          href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA=="
+          href="https://www.instagram.com/pavdentalofficial/?igsh=MXd5MTg2OGU1aW8zNw%3D%3D"
           className="icon text-xl"
           target="_blank"
         >
           <BsInstagram />
         </a>
         <a
-          href="https://www.youtube.com/channel/UCfI_aWjggAbB3ZT1zijgyfg"
+          href="https://youtube.com/@PavDental?si=diMIzm-Y1C4lKgIZ"
           className="icon text-xl"
           target="_blank"
         >
           <BsYoutube />
         </a>
         <a
-          href="https://www.tiktok.com/@parishdental?is_from_webapp=1&sender_device=pc"
+          href="https://www.tiktok.com/@pavdentalofficial?_t=8liREyMlh45&_r=1"
           className="icon text-xl"
           target="_blank"
         >

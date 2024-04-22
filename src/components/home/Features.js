@@ -1,7 +1,7 @@
-import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { BsArrowRight } from "react-icons/bs";
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image";
+import React from "react";
+import img from '../../images/gdc logo.jpg';
 import Schedule from "./Schedule";
 
 // import CareCommission from "../../images/regulated-by-care.jpeg";
@@ -42,7 +42,7 @@ const Features = () => {
 
   return (
     <section className="container mx-auto px-10 grid grid-cols-1  lg:grid-cols-3 my-32 gap-10">
-      <div>
+      {/* <div>
         <div className="mb-5">
           <img src={nhsImage?.url} alt="NHS image" width={350} height={200} />
           <h3 className="text-primary font-semibold text-3xl my-2">{title}</h3>
@@ -73,6 +73,9 @@ const Features = () => {
             Check Our Profile <BsArrowRight className="ml-2" />
           </a>
         </div>
+      </div> */}
+      <div>
+        <img src={img}/>
       </div>
 
       <div>

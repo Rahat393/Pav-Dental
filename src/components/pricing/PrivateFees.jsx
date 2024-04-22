@@ -1,7 +1,5 @@
-import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import SectionHeader from "../global/SectionHeader";
-import PrivateFeeFiltered from "./PrivateFeeFiltered";
+import React from "react";
 
 const PrivateFees = () => {
   const data = useStaticQuery(graphql`
@@ -104,9 +102,6 @@ const PrivateFees = () => {
 
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
-                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                    Composite (white) Fillings{" "}
-                  </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5"></p>
                 </div>
               </div>
@@ -136,7 +131,7 @@ const PrivateFees = () => {
                     Advanced Composite (white) Fillings{" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                    £295
+                    £245
                   </p>
                 </div>
               </div>
@@ -161,6 +156,16 @@ const PrivateFees = () => {
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Simple Root Canal Treatment (1 canals)
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £195
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
                     Standard Root Canal Treatment
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
@@ -171,7 +176,7 @@ const PrivateFees = () => {
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                    Intermediate Root Canal Treatment{" "}
+                    Intermediate Root Canal Treatment (2 canals){" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
                     £295
@@ -181,10 +186,40 @@ const PrivateFees = () => {
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                    Advanced Root canal Treatment{" "}
+                    Advanced Root canal Treatment (3 canals){" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £395
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Advanced Root canal Treatment (4 canals){" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
                     £495
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Complex/ Surgical Extraction{" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £245
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    X-Ray per film{" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £5
                   </p>
                 </div>
               </div>
@@ -247,10 +282,40 @@ const PrivateFees = () => {
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                    metal crown{" "}
+                    Metal crown{" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                    £350
+                    £395
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Porcelain Fused Metal Crown{" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £445
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Porcelain Crown/ Veneer{" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £495
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Precious Metal (Gold){" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £695
                   </p>
                 </div>
               </div>
@@ -287,10 +352,20 @@ const PrivateFees = () => {
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                    bridge per unit{" "}
+                    Bridge Per Unit{" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                    £300
+                    £295
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Inlay/ Onlay Composite{" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £295
                   </p>
                 </div>
               </div>
@@ -338,7 +413,7 @@ const PrivateFees = () => {
                     Acrylic Denture  {" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                    from £500
+                    from £495
                   </p>
                 </div>
               </div>
@@ -348,17 +423,17 @@ const PrivateFees = () => {
                     Chrome Denture{" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                    from £750
+                    from £995
                   </p>
                 </div>
               </div>
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
-                    Valplast (flexible){" "}
+                    Valplast Denture (flexible){" "}
                   </h5>
                   <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
-                    from £600
+                    from £795
                   </p>
                 </div>
               </div>
@@ -401,14 +476,95 @@ const PrivateFees = () => {
                 </div>
               </div>
             </div>
+
             {/* eight end  */}
             {/* nine  */}
+
+            <div>
+              <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
+                Teeth Whitening{" "}
+              </h3>
+
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Home Teeth Whitening with Trays{" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £295
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    In Office Teeth Whitening{" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £295
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Combined Home and In Office  {" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £495
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Top Up Syringes (Single)  {" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £45
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Top Up Syringes (Pack of 4)  {" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £95
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Whitening Strips (14 day)  {" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £65
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center w-full border-b">
+                  <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
+                    Combined Home and In Office  {" "}
+                  </h5>
+                  <p className="text-base lg:text-lg text-secondary font-medium w-2/5">
+                    £495
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* nine end  */}
+            {/* ten  */}
             <div>
               <h3 className="text-primary font-semibold text-2xl mt-8 mb-2">
                 Other Items{" "}
               </h3>
 
-              <div className="flex justify-between items-center">
+              {/* <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
                     Tooth Whitening {" "}
@@ -417,8 +573,8 @@ const PrivateFees = () => {
                     £300
                   </p>
                 </div>
-              </div>
-              <div className="flex justify-between items-center">
+              </div> */}
+              {/* <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">
                     top up gels{" "}
@@ -427,7 +583,7 @@ const PrivateFees = () => {
                     £60
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="flex justify-between items-center">
                 <div className="flex justify-between items-center w-full border-b">
                   <h5 className="text-base lg:text-xl text-gray-600 my-4 w-3/5 max-w-[600px] ">

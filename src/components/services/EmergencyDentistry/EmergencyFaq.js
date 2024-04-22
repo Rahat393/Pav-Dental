@@ -1,10 +1,10 @@
-import React from "react";
 import {
   Accordion,
-  AccordionHeader,
   AccordionBody,
+  AccordionHeader,
   Typography,
 } from "@material-tailwind/react";
+import React from "react";
 
 function EmergencyFaq() {
   const [open, setOpen] = React.useState(1);
@@ -31,7 +31,7 @@ function EmergencyFaq() {
     {
       id: 3,
       ques: "Where is it?",
-      ans: "The practice is in Leeds , West Yorkshire. We are situated about 10 minutes from central Leeds, which has access routes to Leeds and surrounding cities. 7-9 Branch Road, Leeds, LS12 3AQ",
+      ans: "The practice is in Leeds , West Yorkshire. We are situated about 10 minutes from central Leeds, which has access routes to Leeds and surrounding cities. Leeds Road, Bradford. Or we come to you",
     },
     {
       id: 4,

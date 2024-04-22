@@ -106,9 +106,9 @@ const PriceList = () => {
       </div>
       <p className="text-center text-gray-400 leading-8 mt-10">
         Offers and packages now availabe. Please enquire with our team today on
-        <a href="tel:01132638509" className="text-secondary">
+        <a href="tel:0800 099 6375" className="text-secondary">
           {" "}
-          0113 2638509{" "}
+           0800 099 6375{" "}
         </a>{" "}
         to find out more
       </p>

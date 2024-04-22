@@ -7,7 +7,7 @@ const Contact = () => {
     <section className="w-full relative mt-28">
       <StaticImage
         layout="fullWidth"
-        src="../../../images/maps-bg.png"
+        src="../../../images/dental-surgery.jpeg"
         className=" -z-[0] h-[90vh]"
       />
       <div className="container mx-auto px-10 grid lg:grid-cols-2 absolute top-1/2 -translate-y-1/2">
