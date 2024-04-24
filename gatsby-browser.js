@@ -7,22 +7,13 @@ export const wrapPageElement = ({ element }) => (
   <RootElement>
     {element}
     <Script
-      async
-      id="brevo-bot"
+      src="https://static.elfsight.com/platform/platform.js"
+      data-use-service-core
       defer
-      dangerouslySetInnerHTML={{
-        __html: `(function(d, w, c) {
-          w.BrevoConversationsID = '65279fd32231fa659138156a';
-          w[c] = w[c] || function() {
-              (w[c].q = w[c].q || []).push(arguments);
-          };
-          var s = d.createElement('script');
-          s.async = true;
-          s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
-          if (d.head) d.head.appendChild(s);
-      })(document, window, 'BrevoConversations');`,
-      }}
     />
-    {/* <!-- /Brevo Conversations {/literal} --> */}
+    <div
+      class="elfsight-app-eb76ed36-4b10-4913-ab07-b087d40a6c72"
+      data-elfsight-app-lazy
+    ></div>
   </RootElement>
 );
